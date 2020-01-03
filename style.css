@@ -1,0 +1,291 @@
+@font-face{
+	src: url('assets/fonts/georgia/georgia bold italic.ttf');
+	font-family: 'georgia bold italic';
+
+}
+@font-face{
+	src: url('assets/fonts/georgia/georgia bold.ttf');
+	font-family: 'georgia bold';
+	
+}
+@font-face{
+	src: url('assets/fonts/georgia/Georgia Regular font.ttf');
+	font-family: 'Georgia Regular';
+	
+}
+@font-face{
+	src: url('assets/fonts/georgia/GEORGIA4.TTF');
+	font-family: 'GEORGIA4';
+	
+}
+
+.sec-padding{
+	padding: 45px 0;
+
+}
+/*header area start*/
+header{
+	margin-bottom: 40px;
+
+}
+.header-top-violet{
+	height:10px;
+	background:#894aa3;
+	 width:100%;
+
+}
+.form-search input {
+  position: relative;
+  margin-top: 10px;
+  background: #ebebea;
+ margin-bottom: 15px;
+
+
+}
+.form-search i {
+  position: absolute;
+  top: 18px;
+  right: 21px;
+  font-size: 14px;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 24px;
+  cursor: pointer;
+}
+nav ul{
+	list-style: none;
+	padding:0;
+	margin: 0;
+	text-align: right;
+	margin-top: 23px;
+
+}
+nav ul li{
+	display: inline-block;
+	margin-left: 25px;
+
+}
+nav ul li a{
+	font-size: 14px;
+	font-family: Georgia Regular;
+	color: #666666;
+	
+
+
+}
+nav ul li a:hover{
+	text-decoration: none;
+	color:black;
+
+}
+/*header area end*/
+/*sologan area start*/
+
+.sologan-area{
+	background: #ebebea;
+
+}
+.sologan{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+
+}
+.sologan h2{
+	font-size:27px;
+	font-family: 'georgia bold';
+	font-style: italic;
+	color: #727272;
+	line-height: 50px;
+}
+
+/*sologan area end*/
+/*slider area start*/
+
+.slider-area{
+	width:100%;
+	height: 380px;
+	
+}
+.slider-area img{
+	width:100%;
+	height: 380px;
+	
+}
+
+/*slider area end*/
+/*service area start*/
+
+.service-icon {
+  text-align: center;
+  
+}
+.service-icon i {
+  transition: .5s;
+  color: #973445;
+  font-size: 48px;
+  line-height: 59px;
+
+}
+
+.service-icon i:hover {
+  transform: rotate(360deg);
+  
+}
+.service-dec h2{
+	color: #894aa3;
+	font-size: 20px;
+	font-family: 'Georgia Regular';
+	
+}
+.service-dec{
+	color: #666666;
+	font-size: 16px;
+
+}
+/*service area end*/
+/*ourteam area start*/
+
+.our-team .img-sec{
+	width: 100%;
+	height: 300px;
+
+}
+.our-team .img-sec img{
+	width: 100%;
+	height: 300px;
+	
+}
+.our-team{
+	background: #ebebea;
+
+}
+.team-content{
+	background: white;
+	padding: 12px;
+
+	
+}
+.team-title h2{
+	padding:12px;
+		color: #894aa3;
+	font-size: 18px;
+	font-family: 'Georgia Regular';
+}
+.team-dec p{
+	color: #666666;
+	font-size: 14px;
+	font-family: 'Georgia Regular';
+}
+/*ourteam area end*/
+/*footer area start*/
+.single-footer-widget h2{
+	font-size: 18px;
+	color: #666;
+	font-family: 'Georgia Regular';
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+.single-footer-widget p{
+	font-size: 16px;
+	font-family: 'Georgia Regular';
+	color: #999999;
+
+
+}
+.single-footer-widget h5{
+	font-size: 15px;
+	font-family: 'Georgia Regular';
+	color: #999999;
+	font-weight: bold;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.single-footer-widget ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+.single-footer-widget ul li{
+	border-bottom: 2px solid #ebebeb;
+	line-height: 2;
+
+}
+.single-footer-widget ul li a{
+	color: #999;
+	font-size: 16px;
+	text-decoration: none;
+	
+}
+.single-footer-widget address{
+	font-size: 14px;
+
+	margin-top: -16px;
+
+	color:#999;
+
+
+}
+.single-footer-widget #blog-para{
+padding-bottom: 0;
+margin-bottom: 0;
+
+}
+.single-footer-widget #read-more-buton{
+	text-align: right;
+
+	color:#874ca0;
+
+
+	display: block;
+
+	margin-top: -23px;
+}
+.single-footer-widget #submit-buton{
+  color: #874ca0;
+  font-weight: bold;
+  background: #e6e6e6;
+  margin-top: 10px;
+
+}
+.single-footer-widget input{
+	background: #e6e6e6;
+
+}
+
+
+.footer-bottom{
+	background: #444;
+	padding: 20px 0;
+	margin-top: 25px;
+	
+
+
+}
+.footer-bottom h2{
+	color: #d0d0d0;
+	font-size: 16px;
+	font-family: 'Georgia Regular';
+	font-weight: normal;
+	padding-bottom: 0;
+	margin-bottom: 0;
+
+}
+.footer-bottom h3{
+	color: #d0d0d0;
+	font-size: 16px;
+	font-family: 'Georgia Regular';
+	text-align: right;
+	font-weight: normal;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	
+	
+}
+/*footer area end*/
